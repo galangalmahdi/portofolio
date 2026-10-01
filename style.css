@@ -1,0 +1,52 @@
+body {
+background-color: #f4f4f4;
+color: #333;
+margin: 0;
+}
+
+#header{
+text-align: center;
+}
+#header > div:first-child {
+    background-color: navy;
+    color: antiquewhite;
+    padding: 30px;
+}
+
+.content {
+width: 80%;
+max-width: 800px;
+margin: 30px auto;
+background-color: white;
+padding: 30px;
+}
+
+.content h2 {
+    color: navy;
+    border-bottom: 2px solid;
+padding-bottom: 5px;
+}
+
+.content h3 {
+    color: navy;
+}
+.content p {
+    line-height: 1.6;
+}
+.content img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content a {
+    color: navy;
+}
+.content li {
+    margin-bottom: 8px;
+}
+
+#footer
+text-align: center;
+background-color: navy;
+color: white;
+padding: 15px;
+margin-top: 30px;
